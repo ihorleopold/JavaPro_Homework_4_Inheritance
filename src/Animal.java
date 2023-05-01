@@ -3,7 +3,7 @@ public class Animal {
     private static int dogCount;
     private static int catCount;
 
-    public void run() {
+    void run() {
         System.out.println();
     }
 
@@ -15,15 +15,15 @@ public class Animal {
         return dogCount;
     }
 
-    public static int getCatCount() {
+    static int getCatCount() {
         return catCount;
     }
 
-    protected static void incrementDogCount() {
+    static void incrementDogCount() {
         dogCount++;
     }
 
-    protected static void incrementCatCount() {
+    static void incrementCatCount() {
         catCount++;
     }
 }
